@@ -60,7 +60,7 @@ if __name__ == '__main__':
                                            marker=dict(size=2, color=z[inds_satisfy_cond], colorscale='Viridis'))])
 
         # Update the rest of the figure
-        fig.update_layout(title='3D Cube',
+        fig.update_layout(title='3D Exploration',
                           scene={'xaxis_title': {'text': 'x_1', 'font': {'size': 18}},
                                  'yaxis_title': {'text': 'x_2', 'font': {'size': 18}},
                                  'zaxis_title': {'text': 'x_3', 'font': {'size': 18}},
