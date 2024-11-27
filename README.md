@@ -5,3 +5,4 @@ This repository includes problems and their solutions.
 ## Problems
 
 - Josephus Problem
+- The Minimum of Three Points
