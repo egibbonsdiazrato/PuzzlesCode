@@ -1,6 +1,6 @@
 from colorama import Fore, Style
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 def josephus_simulate(N: int, verbose: bool = False) -> int:
