@@ -54,7 +54,7 @@ def josephus_simulate(N: int, verbose: bool = False) -> int:
                               + f'Soldier {index_murderer + 1} has killed soldier {index_victim + 1}.'
                               + Style.RESET_ALL)
                         print(Fore.BLUE
-                              + f'The remaining soldiers alive:\n{np.where(soldiers == 1)[0] + 1}.'
+                              + f'The remaining soldiers alive are:\n{np.where(soldiers == 1)[0] + 1}'
                               + Style.RESET_ALL)
 
                         index_murderer = (index_murderer + 1) % N  # Update murderer
